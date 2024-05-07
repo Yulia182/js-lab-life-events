@@ -11,6 +11,7 @@ if (hours <= 40) {
   const overTimeRate = wage * 1.5;
   pay = wage * 40 + overTime * overTimeRate;
 }
+
 console.log(`Total paycheck is ${pay}`);
 
 const million = 1000000;

@@ -1,14 +1,14 @@
 "use strict";
 
-const fullName = "Mitch Cuckovich";
-const age = 25;
-const birthday = "January 24";
+const fullName = "Yulia Hernandez";
+const age = 29;
+const birthday = "September 21";
 const pineapplePizza = true;
 const lifeEvent = [
-  "I was born in Troy, Michigan.",
-  "I went to Hope College.",
-  "I participated in junior olympics when I was 10 years old.",
-  "I love to be in nature.",
+  "I was born in Russia",
+  "I lived in China for a year.",
+  "I worked as a nanny.",
+  "I love going to Disneyland.",
 ];
 
 if (pineapplePizza) {
@@ -25,7 +25,7 @@ for (let i = 0; i < lifeEvent.length; i++) {
   console.log(lifeEvent[i]);
 }
 
-let counter = 0; //?
+let counter = 0;
 while (true) {
   const randomNumber = Math.floor(Math.random() * 10 + 1);
   if (randomNumber !== 5) {
